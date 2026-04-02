@@ -4,12 +4,6 @@ def add_guests(
 ) -> list[str]:
     """
     Adiciona múltiplos convidados à lista.
-
-    Args:
-        guests (list[str]): lista original
-        new_guests (list[str]): novos convidados
-
-    Returns:
-        list[str]: lista atualizada
     """
-    pass
+    guests.extend(new_guests)
+    return guests
